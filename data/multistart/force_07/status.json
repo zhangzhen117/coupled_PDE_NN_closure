@@ -1,0 +1,11 @@
+{
+  "family": "force",
+  "seed": 0,
+  "shard": 7,
+  "attempted": 1000,
+  "converged": 103,
+  "distinct_roots": 2,
+  "seconds": 374.9275789260864,
+  "complete": true,
+  "checkpoint_sha256": "59792af8a45c3c5d5c3657071f3055bda55e0e075f5beb52a1c8d3ad6f2bde2f"
+}

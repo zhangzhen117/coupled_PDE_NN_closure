@@ -1,0 +1,11 @@
+{
+  "family": "tau",
+  "seed": 8,
+  "shard": 5,
+  "attempted": 1000,
+  "converged": 22,
+  "distinct_roots": 15,
+  "seconds": 1127.853764295578,
+  "complete": true,
+  "checkpoint_sha256": "01b0dc2c86b5b514e8f9ae04bfcf8352707f251a153e946023f4f39805118356"
+}

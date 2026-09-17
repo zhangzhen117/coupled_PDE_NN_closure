@@ -1,0 +1,11 @@
+{
+  "family": "force_pen2w",
+  "seed": 0,
+  "shard": 6,
+  "attempted": 1000,
+  "converged": 552,
+  "distinct_roots": 1,
+  "seconds": 293.37822580337524,
+  "complete": true,
+  "checkpoint_sha256": "b7e80d62607b4c613cf9b623fee825b840d48697d4321656f0c24014cc591195"
+}

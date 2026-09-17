@@ -1,0 +1,11 @@
+{
+  "family": "nueff",
+  "seed": 0,
+  "shard": 3,
+  "attempted": 1000,
+  "converged": 400,
+  "distinct_roots": 1,
+  "seconds": 728.4366846084595,
+  "complete": true,
+  "checkpoint_sha256": "5ef4a139298c9736f403ea1f6119dd23b3fd0b938e79b74e974161c8b113b4c0"
+}

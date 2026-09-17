@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+data/raw/*.dat
+data/multistart/initial_profiles.npy
+data/multistart/*.pdf
+data/multistart/*.png
+data/multistart/REPORT.md
+figures/*
+paper/tex/tables/*
+results/

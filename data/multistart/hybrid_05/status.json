@@ -1,0 +1,11 @@
+{
+  "family": "hybrid",
+  "seed": 9,
+  "shard": 5,
+  "attempted": 1000,
+  "converged": 300,
+  "distinct_roots": 4,
+  "seconds": 524.48313164711,
+  "complete": true,
+  "checkpoint_sha256": "1e064211fe6990af185a3e0de3507453b3dc3db7be52aaad0309d8606a722168"
+}
