@@ -1,6 +1,6 @@
 # Coupled PDE–neural closure
 
-Research code accompanying **Well-posedness of neural turbulence closures and tangent dissipation**, by Zhen Zhang and George Em Karniadakis.
+Research code accompanying **Well-posedness of neural turbulence closures and tangent dissipation**, by Zhen Zhang and George Em Karniadakis ([arXiv:2609.19647](https://arxiv.org/abs/2609.19647)).
 
 This repository implements the paper's one-dimensional plane-channel experiments: learned closures coupled to a finite-volume momentum equation, full closure Jacobians, conditioning diagnostics, Newton–Krylov solves, and searches for multiple solutions. It is not a general three-dimensional RANS solver.
 
@@ -109,3 +109,24 @@ Each task handles 1,000 starts. Existing trial records are protected against acc
 A single observed root provides empirical evidence, not a proof of uniqueness; failed starts do not prove nonexistence. The theorem's global full-tangent condition is stronger than sampled penalties. B1's exact-integral construction controls tangent diffusion only: reaction still needs control, and the implemented eight-point quadrature is not an all-state certificate for the exact integral. Negative closure tangent diffusion alone does not imply loss of ellipticity of the total operator.
 
 The code uses the stress sign `<u'v'>`; the paper uses its negative. See `CONVENTIONS.md`. Figure 3 reconstructs stress as `1-y-nu*S`; for asymmetric roots this is a fixed-integration-constant diagnostic, not necessarily the network's stress. Blue marks the selected physical profiles; the secondary near-DNS C0 root remains brown as in the paper.
+
+## Citation
+
+If you use this code, please cite
+
+> Z. Zhang and G. E. Karniadakis, Well-posedness of neural turbulence closures and tangent dissipation,
+> arXiv:2609.19647 (2026). https://arxiv.org/abs/2609.19647
+
+```bibtex
+@article{zhang2026wellposedness,
+  title         = {Well-posedness of neural turbulence closures and tangent dissipation},
+  author        = {Zhang, Zhen and Karniadakis, George Em},
+  journal       = {arXiv preprint arXiv:2609.19647},
+  year          = {2026},
+  eprint        = {2609.19647},
+  archivePrefix = {arXiv},
+  primaryClass  = {physics.flu-dyn},
+  doi           = {10.48550/arXiv.2609.19647},
+  url           = {https://arxiv.org/abs/2609.19647}
+}
+```
